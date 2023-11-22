@@ -1,12 +1,14 @@
 # SekuroProgramming2024
-
-Deskripsi 
-Nama     : Keane Dylan Tandean 
-NIM      : 16523061 
-Fakultas : STEI-R 
+<br> 
+Deskripsi <br> 
+<br> 
+Nama     : Keane Dylan Tandean <br> 
+NIM      : 16523061 <br> 
+Fakultas : STEI-R <br>
+<br> 
 
 URO_ Tugas Post Day 2 
-
+<br> <br> 
 Di dalam program ini ada terdapat beberapa fungsi sebagai berikut: 
 - lokasi()
 - gerak(x,y) 
