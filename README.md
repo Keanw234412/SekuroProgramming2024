@@ -177,7 +177,8 @@ int main()
 ```
 
 ## load()
-Saat program ditutup dan dibuka lagi, fungsi ini dapat dijalankan dan drone akan berada pada koordinat yang di save!
+Saat program ditutup dan dibuka lagi, fungsi ini dapat dijalankan dan drone akan berada pada koordinat yang di save!<br> 
+**Fungsi ini juga hanya bisa di jalankan pada awal perintah!** 
 
 #### Example 
 Pada file.txt diatas terdapat 2 nilai 1 dan 2 
