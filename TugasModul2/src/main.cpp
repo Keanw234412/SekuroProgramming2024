@@ -246,7 +246,11 @@ int main()
         cout << "Masukkan Pilihan Anda : ";
         cin >> s; 
         gotoxy(3, 21);
-        system("cls");
+        if (s != "gerak_2")
+        {
+            system("cls");
+        }
+        
         frame();
         gotoxy(3, 21);
         if (s == "lokasi")
@@ -277,8 +281,17 @@ int main()
         else if (s == "gerak_2")
         {
             ld v,t,theta;
-            cin >> v >> t >> theta;
+            gotoxy(42, 7);
+            cout << "v : ";
+            cin >> v;
+            gotoxy(42, 8);
+            cout << "t : ";
+            cin >> t;
+            gotoxy(42, 9);
+            cout << "theta : ";
+            cin >> theta;
             gerak_2(v,t,theta);
+            system("cls");
             command = true;
         }
         else if(s == "load" && start )
